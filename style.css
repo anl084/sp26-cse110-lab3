@@ -47,7 +47,7 @@ ol{
 }
 
 li{
-    color:color(display-p3 0.1 0.1 0.5 / 0.3);
+    color: color(srgb 0.2 0.8 0.4);
 }
 
 /*  */
@@ -60,7 +60,7 @@ li{
     padding-right:2px;
     padding-top:2px;
     padding:2px;
-    border:5pxx;
+    border:5px;
     border-color:blue;
     border-radius: 25px;
 }

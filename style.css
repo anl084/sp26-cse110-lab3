@@ -1,0 +1,120 @@
+:root{
+    --main-fallback-color:black;
+    --main-bg-color:blue;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* Basic Styling in CSS first part at least */
+html{
+    background-color: rgb(143, 97, 39);
+}
+
+*{
+    font-family:Outfit;
+}
+img[width="500"]{
+    background-color:red;
+}
+nav, a{
+    color:rgba(214,204,226, 0.7);
+    display:grid;
+    align-content:space-around;
+    gap:5px;
+    grid-auto-flow: row dense;
+}
+
+h1{
+    color:hsla(42,100,50, 0.9);
+}
+
+p{
+    color:aquamarine;
+}
+
+a{
+    color: var(--main-bg-color);
+}
+
+ol{
+    color:color-mix(in lch, purple 30%, green);
+}
+
+li{
+    color:color(display-p3 0.1 0.1 0.5 / 0.3);
+}
+
+/*  */
+#post{
+    margin-left:2px;
+    margin-right:2px;
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    padding:2px;
+    border:2px 2px 2px 2px;
+    border-color:blue;
+    border-radius: 25px;
+}
+
+.abcde:is(section):not(strong){
+    margin:2px 2px 2px 2mm;
+    padding:2cm 2cm 2cm 2cm;
+    border-width:2px;
+    border-color:blue;
+    border-radius: 25px;
+    border-style:groove;
+    text-decoration: wavy;
+    text-align:left;
+}
+
+li{
+    margin:auto;
+}
+
+hr:active{
+    display:none;
+    position:fixed;
+}
+
+.span1:hover{
+    display:inline;
+    position:sticky;
+    height:30%;
+    width:40%;
+    max-width:700px;
+    max-height:900px;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap-reverse;
+    flex-direction:row-reverse;
+}
+
+/* Remaining Selctorss also this is way too much...*/
+ul li{
+    color:black;
+}
+
+section > p{
+    color:orange;
+}
+
+h2+p{
+    color:pink;
+}
+h2~p{
+    color:navy;
+}
+
+section.abced{
+    /*bored*/
+    color:lavenderblush;
+}
+

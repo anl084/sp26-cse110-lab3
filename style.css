@@ -12,13 +12,14 @@
 
 /* Basic Styling in CSS first part at least */
 html{
-    background-color: rgb(143, 97, 39);
+    background-color: rgb(127, 225, 160);
 }
 
 *{
     font-family:Outfit;
 }
 img[width="500"]{
+    padding:10px;
     background-color:red;
 }
 nav{

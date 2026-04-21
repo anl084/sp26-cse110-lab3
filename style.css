@@ -21,16 +21,17 @@ html{
 img[width="500"]{
     background-color:red;
 }
-nav, a{
+nav{
     color:rgba(214,204,226, 0.7);
     display:grid;
     align-content:space-around;
     gap:5px;
     grid-auto-flow: row dense;
+    flex-direction:row;
 }
 
-h1{
-    color:hsla(42,100,50, 0.9);
+h1, h5{
+    color:hsla(266, 58%, 59%, 0.9);
 }
 
 p{
@@ -42,7 +43,7 @@ a{
 }
 
 ol{
-    color:color-mix(in lch, purple 30%, green);
+    color:color-mix(in lch, rgb(206, 140, 206) 30%, rgb(122, 150, 196));
 }
 
 li{
@@ -59,7 +60,7 @@ li{
     padding-right:2px;
     padding-top:2px;
     padding:2px;
-    border:2px 2px 2px 2px;
+    border:5pxx;
     border-color:blue;
     border-radius: 25px;
 }
